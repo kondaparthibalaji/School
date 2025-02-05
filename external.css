@@ -1,0 +1,40 @@
+.logo {
+    padding: 15px 0;
+    background-color:red;
+    text-align: center;
+   
+}
+
+.pixel {
+    max-width: 100%;
+    height: auto;
+}
+
+.heading {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.parahead {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.LRbutton {
+    width: 100%;
+    font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+    .heading {
+        font-size: 1.5rem;
+    }
+    .parahead {
+        font-size: 1rem;
+    }
+    .LRbutton {
+        font-size: 0.9rem;
+        margin-top: 5px;
+    }
+}
