@@ -1,6 +1,6 @@
 .logo {
     padding: 15px 0;
-    background-color:red;
+    background-color:lightpink;
     text-align: center;
    
 }
@@ -22,7 +22,7 @@
 }
 
 .LRbutton {
-    width: 100%;
+    width: 90%;
     font-size: 1rem;
 }
 
@@ -37,4 +37,59 @@
         font-size: 0.9rem;
         margin-top: 5px;
     }
+}
+
+.navagationbar {
+    background-color: #343a40;
+    padding: 10px 0;
+}
+.navbar-nav .nav-link {
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+.navbar-nav .nav-link:hover {
+    color: #f8f9fa;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 120vh;
+    object-fit: cover; 
+    
+}
+
+.hero-image {
+    padding: 10px;
+    text-align: center;
+    background-image:linear-gradient(rgba(248,248,252,0.7),rgba(248,248,252,0.7)),url("./school images/background_img2.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-text h1 {
+    font-weight: bold;
+    text-decoration: underline;
+}
+.btn-academic {
+    background-color: blue;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    font-size: 16px;
+}
+.pics, .pics2 {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.hero-text3 {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
 }
