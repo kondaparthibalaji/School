@@ -1,5 +1,5 @@
 .logo {
-    padding: 15px 0;
+    padding: 15px ;
     background-color:lightpink;
     text-align: center;
    
@@ -8,7 +8,7 @@
 .pixel {
     max-width: 100%;
     height: auto;
-}
+} 
 
 .heading {
     font-size: 2.5rem;
@@ -196,3 +196,177 @@
         height: 150px;
     }
 }
+
+
+.achievements {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./school images/result 2.jpg");
+    height: 75vh; /* Uses viewport height for better scaling */
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: relative; */
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+/* Text Styling */
+.achievements-text {
+    text-align: center;
+    color: white;
+    font-size: 6vw; /* Uses relative unit for responsiveness */
+    font-weight: bold;
+    padding: 10px;
+}
+
+/* Tablet View (768px and up) */
+@media (max-width: 768px) {
+    .achievements {
+        height: 60vh; /* Adjusts height */
+    }
+    .achievements-text {
+        font-size: 5vw; /* Scales text size */
+    }
+}
+
+/* Mobile View (480px and below) */
+@media (max-width: 480px) {
+    .achievements {
+        height: 50vh; /* Smaller height */
+    }
+    .achievements-text {
+        font-size: 4vw; /* Smaller text */
+    }
+}
+
+
+#navagationbar2 {
+    background-color: #333;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#navagationbar2 ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#navagationbar2 li {
+    display: inline;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #f0a500;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .achievements-text {
+        font-size: 4vw;
+    }
+    
+    #navagationbar2 ul {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    .achievements-text {
+        font-size: 3.5vw;
+    }
+    
+    #navagationbar2 ul {
+        flex-direction: column;
+    }
+    
+    .nav-link {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .achievements-text {
+        font-size: 5vw;
+        width: 90%;
+    }
+    
+    #navagationbar2 ul {
+        flex-direction: column;
+    }
+    
+    .nav-link {
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+}
+
+.card-header h3 {
+    font-size: 2rem;
+}
+@media (max-width: 768px) {
+    .card-header h3 {
+        font-size: 1.2rem;
+    }
+    .icon {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+.card-header h3 {
+    font-size: 1.5rem;
+}
+@media (max-width: 768px) {
+    .card-header h3 {
+        font-size: 1.2rem;
+    }
+    .icon {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+.card-header h3 {
+    font-size: 1.5rem;
+}
+@media (max-width: 768px) {
+    .card-header h3 {
+        font-size: 1.2rem;
+    }
+    .icon {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+.mapimg {
+    max-width: 100%;
+    height: auto;
+}
+.contact-section {
+    font-size: 1rem;
+}
+@media (max-width: 768px) {
+    .contact-section {
+        font-size: 0.9rem;
+    }
+    .border-bottom {
+        border-bottom: 1px solid white !important;
+    }
+}
+
+
